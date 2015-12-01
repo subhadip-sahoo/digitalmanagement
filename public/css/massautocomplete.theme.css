@@ -1,0 +1,300 @@
+.ac-container {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 999;
+}
+.ac-container .ac-menu {
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 0;
+  background-color: white;
+  box-shadow: 0 3px 7px 0px rgba(0, 0, 0, 0.15);
+  margin: 0;
+}
+.ac-container .ac-menu .ac-menu-item {
+  border-bottom: 1px dotted #ccc;
+  line-height: 35px;
+  margin: 0;
+}
+.ac-container .ac-menu .ac-menu-item:last-child {
+  border-bottom: 0;
+}
+.ac-container .ac-menu .ac-menu-item:hover {
+  background-color: #e0eaff;
+}
+.ac-container .ac-menu a {
+  padding-left: 5px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.ac-container .ac-menu .ac-state-focus {
+  outline: none;
+  background-color: #e0eaff;
+}
+
+
+
+/*=================================
+EDIT STYLES
+===============================================*/
+
+.dataTables_wrapper table.dataTable.no-footer {
+  width: 100% !important;
+}
+.dataTables_wrapper table.dataTable thead .sorting, 
+.dataTables_wrapper table.dataTable thead .sorting_asc, 
+.dataTables_wrapper table.dataTable thead .sorting_desc, 
+.dataTables_wrapper table.dataTable thead .sorting_asc_disabled, 
+.dataTables_wrapper table.dataTable thead .sorting_desc_disabled {
+  width: auto !important;
+}
+table.dataTable.row-border tbody th, 
+table.dataTable.row-border tbody td, 
+table.dataTable.display tbody th, 
+table.dataTable.display tbody td {
+  word-wrap: break-word;
+}
+.dataTables_wrapper table.dataTable thead th:nth-child(4),
+.dataTables_wrapper table.dataTable tbody td:nth-child(4) {
+  max-width: 120px;
+}
+@media all and (max-width: 1200px) {
+  .whiteblock {
+    min-height: 172px;
+  }
+  .searchcatinput input[type=text] {
+    width: 50%;
+  }
+}
+@media all and (max-width: 991px) {
+  .whiteblock {
+    min-height: 220px;
+  }
+  .whiteblock span.vname {
+    clear: both;
+  }
+  .searchcatinput input[type=text] {
+    width: 34%;
+  }
+}
+@media all and (max-width: 767px) {
+  .whiteblock {
+    min-height: inherit;
+  }
+  .recepsearchresult li {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .serarhform {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .searchcatinput input[type=text] {
+    width: 76%;
+  }
+  .recepsearchresult li .align-right {
+    text-align: left !important;
+  }
+}
+.container > .attachfile {
+  margin-bottom: 40px;
+  position: relative;
+}
+.container > .attachfile > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container > .attachfile > label {
+  display: block;
+}
+.container > .attachfile > .btn-gry {
+    background-color: #68787f;
+    border-color: #68787f;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 50px;
+}
+.container > .attachfile > span {
+  float: right;
+}
+.container > .attachfile > .ng-binding {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container > .attachfile > button[type=button] {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    background-color: #F3F3F3;
+}
+.container > .attachfile > span a {
+    color: #0F9AF8;
+}
+.container > .attachfile > .fileformathelp {
+    position: absolute;
+    bottom: -20px;
+    left: 37px;
+}
+@media all and (max-width: 991px) {
+  .container > .attachfile {
+    min-height: 78px;
+  }
+  .container > .attachfile > .fileformathelp {
+    bottom: -7px; 
+  }
+  .navbar-default .nav li a {
+    font-size: 14px;
+  }
+  .nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .admin_mane .navbar-nav li {
+    vertical-align: top;
+  }
+  .admin_mane .navbar-nav li a {
+    min-height: 163px;
+  }
+}
+@media all and (max-width: 767px) {
+  .container > .attachfile > .ng-binding {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .container > .attachfile > span {
+    float: none;
+    display: block;
+  }
+  .container > .attachfile > .btn-gry {
+    margin-bottom: 24px; 
+  }
+  .container > .attachfile > .fileformathelp {
+    bottom: inherit;
+    top: 60px;
+  }
+  .container > .attachfile > * {
+    vertical-align: top;
+  }
+  .container > .attachfile > button[type=button] {
+    margin-top: 5px;
+  }
+  .admin_mane .navbar-nav li {
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  .admin_mane .navbar-nav li a {
+    min-height: inherit;
+  }
+}
+.searchreport label {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.searchreport .input_part {
+    background-color: #fff;
+    height: 30px;
+    border: solid 1px #CECECE;
+    overflow: hidden;
+}
+.searchreport .ng-valid {
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.searchreport select.ng-valid {
+  width: 190px;
+}
+.searchreport .input_part:after {
+  top: 3px;
+  right: 3px;
+}
+@media all and (max-width: 1200px) {
+  table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 15px 10px 5px;
+  }
+  .searchreport .input_part,
+  .searchreport .ng-valid {
+    width: 155px;
+  }
+}
+@media all and (max-width: 991px) {
+  .searchreport .input_part {
+    margin-bottom: 6px;
+  }
+}
+@media all and (max-width: 767px) {
+  #loginform {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #loginform .input-group {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  #loginform .input-group .col-sm-6 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #loginform .input-group .col-sm-6.paddingright {
+    padding-right: 15px;
+  }
+}
+.latestvisitor .listbox {
+  min-height: 400px;
+}
+.divexample1 {   
+  height: 376px; 
+}
+.picturebadge {
+  position: relative;
+}
+.picturebadge input[type=file] {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  width: 100%;
+}
+.appoinment .picturebadge a[ng-click="changeVisitorStatus(visitor_id, 1);"] {
+  margin-bottom: 0;
+}
+.picturebadge span span {
+  /*position: absolute;
+  top: 0;
+  left: 0; */
+}

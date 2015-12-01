@@ -1,0 +1,2 @@
+email,password,password_org,first_name,last_name,name,position,phone,status,role_id,location_id,avatar,department,extension_no,vehicle_no,remember_token,created_at,updated_at,deleted_at
+abcd@abcd.com,,,abcd,efgh,abcd efgh,Manager,9876543210,1,5,1,,zzz,12345,54321

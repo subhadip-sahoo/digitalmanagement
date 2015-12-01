@@ -1,0 +1,25 @@
+.time-numbers > *, .time-entry > * {
+	display: inline-block;
+}
+
+.timepicker {
+	margin-right: 15px;
+}
+
+.left-panel{
+	width:70%;
+	float:left;
+}
+.right-panel{
+	width:25%;
+	float:left;
+	padding:0 0px 0 30px;
+}
+
+@media (min-width: 546px) {
+	.time-entry-comment {
+		position: relative;
+		top: 60px;
+	}
+}
+
